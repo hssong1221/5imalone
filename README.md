@@ -8,10 +8,12 @@ Language : Undetermined(Maybe HTML)
 
 Final goal : Create a printable bulletin board.
 
+-------------------------
 2016/11/16 WED
+-------------------------
 
-+I decided to make a bulletin board.
-+I made a basic framework.
-+I made a README.md
+I decided to make a bulletin board.
+I made a basic framework.
+I made a README.md
 
 
