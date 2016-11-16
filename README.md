@@ -22,9 +22,11 @@ Function :
 
 6.If you write a lot, you add extra features (later in mind).
 
+7.Inability to infringe on Admin credentials
 -------------------------
 2016/11/16 WED
 -------------------------
+Today's work
 
 I decided to make a bulletin board.
 I made a basic framework.
