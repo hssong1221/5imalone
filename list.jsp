@@ -10,7 +10,7 @@
   <body>
   <%
 	Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
-	String url = "jdbc:odbc:board";
+	String url = "jdbc:odbc:board";                //access로 만든 database의 board와 연동된다.
 	String id = "";
 	String pass = "";
 	int total = 0;
@@ -63,7 +63,7 @@
 <tr height="25" align="center">
 <td>&nbsp;</td>
 	<td><%=idx %></td>
-	<td align="left"><a href="view.jsp?idx=<%=idx%>"><%=title %></a></td>
+	<td align="left"><a href="view.jsp?idx=<%=idx%>"><%=title %></a></td> <!-- </a>를 추가하였다. 안 닫혀있더라고 --> 
 	<td align="center"><%=name %></td>
 	<td align="center"><%=time %></td>
 	<td align="center"><%=hit %></td>
@@ -87,7 +87,7 @@
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
   <tr><td colspan="4" height="5"></td></tr>
   <tr align="center">
-   <td><input type=button value="글쓰기" OnClick = "window.location = 'write.jsp'"></td>
+   <td><input type=button value="글쓰기" OnClick = "window.location = 'write.jsp'"></td> <!-- write.jsp랑 연결시킴 -->
   </tr>
 </table>
 </body>
