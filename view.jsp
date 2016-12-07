@@ -97,7 +97,7 @@
       <td colspan="2" width="399"><input type=button value="글쓰기"  OnClick="window.location='write.jsp'">
 	<input type=button value="답글">
 	<input type=button value="목록" OnClick="window.location='list.jsp'">
-	<input type=button value="수정">
+	<input type=button value="수정" Onclick="window.location='modify.jsp?idx=<%=idx%>'">
 	<input type=button value="삭제" OnClick="window.location='delete.jsp?idx=<%=idx%>'">
       <td width="0">&nbsp;</td>
      </tr>
