@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<!-- 아직 수정중입니다. -->
+<!-- 거의다 했으니까 조금만 더 기다려 -->
 </body>
 </html>
